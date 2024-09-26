@@ -19,3 +19,23 @@ h1{
     justify-content: center;
     text-transform: uppercase;
 }
+
+nav{
+    display: grid;
+}
+
+nav a{
+    font-size: 1.5em;
+}
+
+h2{
+    font-size: 2em;
+}
+
+p{
+    font-size: 1.25em;
+}
+
+figcaption, label, input, small{
+    font-size: 1em;
+}
