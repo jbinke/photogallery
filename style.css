@@ -5,3 +5,11 @@
     --white: #ffffff;
 }
 
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-size: 3em;
+    color: var(--teal);
+}
