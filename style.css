@@ -7,9 +7,11 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
+    /* background-color: var(--black); */
 }
 
 h1{
     font-size: 3em;
     color: var(--teal);
+    background-color: var(--white);
 }
