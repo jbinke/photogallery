@@ -31,6 +31,7 @@ nav a{
 ul{
     list-style-type: none;
     display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 h2{
