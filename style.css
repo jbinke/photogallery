@@ -32,6 +32,11 @@ h2{
     font-size: 2em;
 }
 
+main{
+    display: grid;
+    background-color: var(--white);
+}
+
 p{
     font-size: 1.25em;
 }
