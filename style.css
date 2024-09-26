@@ -20,10 +20,6 @@ h1{
     text-transform: uppercase;
 }
 
-nav{
-    display: grid;
-}
-
 nav a{
     font-size: 1.5em;
 }
