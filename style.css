@@ -28,6 +28,11 @@ nav a{
     font-size: 1.5em;
 }
 
+ul{
+    list-style-type: none;
+    display: grid;
+}
+
 h2{
     font-size: 2em;
 }
