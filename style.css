@@ -18,12 +18,27 @@ h1{
     display: grid;
     justify-content: center;
     text-transform: uppercase;
+    margin: 0px 5em;
 }
 
 nav a{
     font-size: 1.5em;
     color: var(--white);
     text-decoration: none;
+}
+
+nav li{
+    display: inline-flex;
+    justify-items: center;
+    text-transform: uppercase;
+}
+
+#top{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    background-color: var(--black);
+    border: var(--white) 2px;
 }
 
 ul{
