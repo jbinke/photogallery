@@ -54,6 +54,13 @@ h2{
 main{
     display: grid;
     background-color: var(--white);
+    justify-items: center;
+    margin: 5em;
+}
+
+.aboutGal{
+    display: grid;
+    justify-items: center;
 }
 
 p{
