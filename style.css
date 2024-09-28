@@ -23,12 +23,6 @@ h1{
     justify-items: center;
 }
 
-/* nav{
-    display: grid;
-    justify-content: center;
-    padding: 15px;
-} */
-
 nav a{
     font-size: 1.5em;
     color: var(--white);
@@ -36,7 +30,7 @@ nav a{
 }
 
 nav li{
-    display: inline-flex;
+    display: grid;
     text-transform: uppercase;
 }
 
