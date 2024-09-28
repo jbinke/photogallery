@@ -44,7 +44,7 @@ nav li{
     bottom: 0px;
     right: 0px;
     background-color: var(--black);
-    border: var(--white) 2px;
+    border: var(--white) 3px;
 }
 
 ul{
@@ -112,6 +112,22 @@ figcaption{
     align-items: end;
 }
 
+footer{
+    display: grid;
+    justify-content: center;
+    color: var(--white);
+}
+
+form{
+    display: grid;
+    justify-content: center;
+}
+form h2{
+    display: grid;
+    justify-items: center;
+    text-transform: uppercase;
+}
+
 
 
 
@@ -121,6 +137,7 @@ figcaption{
 @media screen and (min-width:880px){
     body {
         width: 880px;
+        display: grid;
     }
     .pics{
         display: grid;
