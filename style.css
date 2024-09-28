@@ -90,6 +90,7 @@ figure{
     display: grid;
     justify-items: center;
     position: relative;
+    justify-content: center;
 }
 
 figcaption{
@@ -106,6 +107,10 @@ figcaption{
     color: var(--white);
 }
 
+#chile, #hawaii, #italy, #moab{
+    display: grid;
+    align-items: end;
+}
 
 
 
@@ -116,8 +121,9 @@ figcaption{
 @media screen and (min-width:880px){
     body {
         width: 880px;
+        justify-content: center;
     }
-    div {
+    main{
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
