@@ -121,9 +121,8 @@ figcaption{
 @media screen and (min-width:880px){
     body {
         width: 880px;
-        justify-content: center;
     }
-    main{
+    .pics{
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
@@ -131,8 +130,9 @@ figcaption{
 @media screen and (min-width:1300px){
     body {
         width: 1300px;
+        display: grid;
     }
-    div {
+    .pics{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }}
