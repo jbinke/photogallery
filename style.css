@@ -121,11 +121,16 @@ footer{
 form{
     display: grid;
     justify-content: center;
+    line-height: 22px;
 }
 form h2{
     display: grid;
     justify-items: center;
     text-transform: uppercase;
+}
+p small{
+    display: grid;
+    justify-content: center;
 }
 
 
