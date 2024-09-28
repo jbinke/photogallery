@@ -70,6 +70,14 @@ main{
     justify-items: center;
 }
 
+.aboutGal p{
+    line-height: 38px;
+}
+
+.aboutGal h2{
+    text-transform: uppercase;
+}
+
 p{
     font-size: 1.25em;
 }
