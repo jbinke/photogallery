@@ -133,6 +133,11 @@ p small{
     justify-content: center;
 }
 
+::placeholder{
+    color: var(--teal);
+    font-weight: 700;
+}
+
 
 
 
