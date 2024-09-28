@@ -138,6 +138,10 @@ p small{
     font-weight: 700;
 }
 
+label{
+    text-transform: uppercase;
+}
+
 
 
 
