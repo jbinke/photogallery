@@ -50,24 +50,28 @@ table {
     --white: #ffffff;
 }
 
+* {
+    box-sizing: border-box;
+  }
+
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: var(--black);
     min-width: 480px;
-}
-
-header{
     display: grid;
 }
 
 h1{
     font-size: 3em;
+    font-weight: bold;
     color: var(--teal);
     background-color: var(--white);
     display: flex;
     justify-content: center;
     text-transform: uppercase;
-    /* margin: 0px 4em; */
+    margin: 0px 80px;
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
 
 nav a{
@@ -94,10 +98,12 @@ ul{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
+    padding: 20px;
 }
 
 h2{
     font-size: 2em;
+    font-weight: bold;
 }
 
 main{
@@ -105,6 +111,8 @@ main{
     background-color: var(--white);
     justify-items: center;
     margin: 1em 5em;
+    font-family: Arial, Helvetica, sans-serif;
+    grid-template-columns: 1fr;
 }
 
 .aboutGal{
@@ -152,6 +160,10 @@ figcaption{
 #chile, #italy, #moab{
     display: grid;
     align-items: end;
+}
+
+.pics{
+    display: grid;
 }
 
 footer{
@@ -210,7 +222,7 @@ input{
     }
     .pics{
         display: grid;
-        grid-template-columns: auto auto;
+        grid-template-columns: 1fr 1fr;
     }
 }
 @media screen and (min-width:1300px){
@@ -220,7 +232,7 @@ input{
     }
     .pics{
         display: grid;
-        grid-template-columns: auto auto auto;
+        grid-template-columns: 1fr 1fr 1fr;
     }
     nav{
         display: grid;
