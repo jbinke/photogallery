@@ -156,11 +156,18 @@ input{
 
 
 
-
+@media screen and (min-width:485px){
+    body {
+        display: grid;
+    }
+    .pics{
+        display: grid;
+        grid-template-columns: auto;
+    }
+}
 
 @media screen and (min-width:880px){
     body {
-        width: 880px;
         display: grid;
     }
     .pics{
