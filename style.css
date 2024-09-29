@@ -102,7 +102,7 @@ figcaption{
     color: var(--white);
 }
 
-#chile, #hawaii, #italy, #moab{
+#chile, #italy, #moab{
     display: grid;
     align-items: end;
 }
