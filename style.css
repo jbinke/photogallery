@@ -87,11 +87,13 @@ nav li{
 
 #top{
     position: fixed;
-    bottom: 0px;
-    right: 0px;
+    bottom: 5px;
+    right: 5px;
     background-color: var(--black);
-    border: var(--white) 3px;
-    padding: 20px;
+    width: 65px;
+    height: 35px;
+    justify-content: center;
+    align-content: center;
 }
 
 ul{
@@ -176,23 +178,31 @@ footer{
 }
 
 form{
-    display: grid;
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
 }
 
+
 form h2{
-    display: grid;
-    justify-items: center;
+    display: flex;
+    justify-content: center;
     text-transform: uppercase;
     padding-bottom: 15px;
 }
 
+form p{
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 40px;
+}
 
 p small{
     display: grid;
     justify-content: center;
     padding-top: 30px;
     padding-bottom: 15px;
+    font-size: small;
 }
 
 ::placeholder{
@@ -202,22 +212,24 @@ p small{
 
 label{
     text-transform: uppercase;
-    display: grid;
-    font-size: small;
-    padding: 2px;
+    display: flex;
+    /* font-size: small; */
 }
 input{
     display: grid;
     grid-template-columns: 1fr;
     width: 100%;
+    height: 40px;
 }
 
 #submit{
-    border-radius: 12px;
+    border-radius: 14px;
     background-color: var(--teal);
     color: var(--white);
     padding: 4px;
     margin-top: 12px;
+    width: 185px;
+    align-self: center;
 }
 
 
