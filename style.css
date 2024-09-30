@@ -277,6 +277,14 @@ input{
     form{
         width: 140%;
     }
+
+    .aboutGal p{
+        justify-self: left;
+    }
+
+    #submit{
+        width: 360px;
+    }
     }
 
 @media screen and (min-width:1300px){
@@ -291,5 +299,20 @@ input{
     nav{
         display: grid;
         justify-items: right;
+        padding-right: 48px;
+    }
+    footer{
+        display: grid;
+        justify-content: center;
+        color: var(--white);
+        justify-items: center;
+    }
+
+    form{
+        width: 220%;
+    }
+
+    #submit{
+        width: 550px;
     }
 }
