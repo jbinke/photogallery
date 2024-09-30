@@ -178,16 +178,21 @@ footer{
 form{
     display: grid;
     justify-content: center;
-    line-height: 22px;
 }
+
 form h2{
     display: grid;
     justify-items: center;
     text-transform: uppercase;
+    padding-bottom: 15px;
 }
+
+
 p small{
     display: grid;
     justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 15px;
 }
 
 ::placeholder{
