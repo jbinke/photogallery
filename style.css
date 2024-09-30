@@ -123,11 +123,13 @@ main{
 }
 
 .aboutGal p{
-    line-height: 38px;
+    line-height: 30px;
+    padding: 10px 10px;
 }
 
 .aboutGal h2{
     text-transform: uppercase;
+    padding-top: 10px;
 }
 
 p{
@@ -202,7 +204,6 @@ p small{
     justify-content: center;
     padding-top: 30px;
     padding-bottom: 15px;
-    font-size: small;
 }
 
 ::placeholder{
@@ -244,7 +245,40 @@ input{
         display: grid;
         grid-template-columns: auto auto;
     }
-}
+
+    h1{
+        display: flex;
+        justify-content: left;
+        padding-left: 8px;
+    }
+
+    ul{
+        display: flex;
+        justify-content: center;
+    }
+
+    nav li{
+        display: grid;
+        padding: 10px;
+    }
+
+    #hawaii{
+        display: grid;
+        align-items: start;
+    }
+
+    footer{
+        display: grid;
+        justify-content: center;
+        color: var(--white);
+        justify-items: center;
+    }
+
+    form{
+        width: 140%;
+    }
+    }
+
 @media screen and (min-width:1300px){
     body {
         min-width: 1300px;
