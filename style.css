@@ -57,7 +57,7 @@ table {
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: var(--black);
-    min-width: 480px;
+    min-width: 485px;
     display: grid;
 }
 
@@ -91,6 +91,7 @@ nav li{
     right: 0px;
     background-color: var(--black);
     border: var(--white) 3px;
+    padding: 20px;
 }
 
 ul{
@@ -112,7 +113,6 @@ main{
     justify-items: center;
     margin: 1em 5em;
     font-family: Arial, Helvetica, sans-serif;
-    grid-template-columns: 1fr;
 }
 
 .aboutGal{
@@ -141,29 +141,32 @@ figure{
     justify-items: center;
     position: relative;
     justify-content: center;
+    padding: 20px;
 }
 
 figcaption{
     display: grid;
-    justify-content: center;
-    align-content: center;
+    /* justify-content: center;
+    align-content: center; */
     position: absolute;
     z-index: 1;
     text-transform: uppercase;
-    justify-items: center;
+    /* justify-items: center; */
+    padding: 30px;
 }
 
 #chile, #guatemala, #hawaii, #moab, #wyoming{
     color: var(--white);
 }
 
-#chile, #italy, #moab{
+#chile, #italy, #moab, #hawaii{
     display: grid;
     align-items: end;
 }
 
 .pics{
     display: grid;
+    grid-template-columns: auto;
 }
 
 footer{
@@ -215,27 +218,27 @@ input{
 
 
 
-/* @media screen and (min-width:880px){
+@media screen and (min-width:880px){
     body {
-        width: 880px;
+        min-width: 880px;
         display: grid;
     }
     .pics{
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: auto auto;
     }
 }
 @media screen and (min-width:1300px){
     body {
-        width: 1300px;
+        min-width: 1300px;
         display: grid;
     }
     .pics{
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: auto auto auto;
     }
     nav{
         display: grid;
         justify-items: right;
     }
-} */
+}
